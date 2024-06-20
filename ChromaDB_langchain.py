@@ -30,8 +30,6 @@ os.environ["OPENAI_API_KEY"] = "#####################################"
 # 
 
 dff.to_csv('/Users/jaykim/Downloads/temp.csv')
-
-#loader = CSVLoader("/Users/jaykim/Downloads/AdvizorPro_Person_04.24.2024.csv")
 loader = CSVLoader("/Users/jaykim/Downloads/temp.csv")
 documents = loader.load()
 
