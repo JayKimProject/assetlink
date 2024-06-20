@@ -135,7 +135,7 @@ def scrape_with_playwright(urls, schema):
 
 extracted_content = scrape_with_playwright(urls, schema=schema)
 
-
+dff = dff['CRD']
 dff['n_First_Name'] = ''
 dff['n_Middle_Name'] = ''
 dff['n_Last_Name'] = ''
